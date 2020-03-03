@@ -1,2 +1,6 @@
-# CS3321_Team_Project
-Repository for CS3321 Project
+# CS3321 Team Project
+
+Learning Managment System
+
+Group: Alex Nino, Jesus Lozano, Adnan Rashid, Jheysson Menendez, Carolann Mora
+
