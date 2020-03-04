@@ -1,3 +1,7 @@
+#
+#This is just UI testing in python for learning purposes
+#   -Alex
+
 import sys
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QWidget, QLabel, QLineEdit
