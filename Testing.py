@@ -1,5 +1,5 @@
 user='root'
-password='Al102030!'  #CHANGE THIS
+password='++++++++++++++++++++++++++!'  #CHANGE THIS
 host='ANMACAIR.local'
 database='Test'
 
