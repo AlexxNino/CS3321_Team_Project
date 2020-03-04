@@ -1,6 +1,6 @@
 user='root'
 password='++++++++++++++++++++++++++!'  #CHANGE THIS
-host='ANMACAIR.local'
+host='++++++++++++++++++++++++++' #CHANGE THIS
 database='Test'
 
 
