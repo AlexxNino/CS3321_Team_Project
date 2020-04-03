@@ -5,11 +5,11 @@ Learning Managment System
 Group: Alex Nino, Jesus Lozano, Adnan Rashid, Jheysson Menendez, Carolann Mora
 
 TODO LIST
----------
-architecture diagram
+----------
+-architecture diagram
 
-use case diagram
+-use case diagram
 
-class diagram
+-class diagram
 
-GUI
+-GUI
