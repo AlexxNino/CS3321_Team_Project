@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -18,15 +18,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     adminwindow.cpp \
     main.cpp \
-    loginwindow.cpp
+    loginwindow.cpp \
+    studentwindow.cpp
 
 HEADERS += \
     adminwindow.h \
-    loginwindow.h
+    loginwindow.h \
+    studentwindow.h
 
 FORMS += \
     adminwindow.ui \
-    loginwindow.ui
+    loginwindow.ui \
+    studentwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
