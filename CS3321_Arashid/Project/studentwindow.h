@@ -17,6 +17,7 @@ class StudentWindow : public QDialog
 public:
     explicit StudentWindow(QWidget *parent = nullptr);
     ~StudentWindow();
+    void get_semester_gpa();
     void createGlobal(QString, QString);
     void loadcourses();
     void loadAllClasses();
@@ -24,10 +25,12 @@ public:
     void dropClass(QString);
     void loadStudent();
     void loadGrades();
+
+
 private slots:
     void on_pushButton_LoadTable_clicked();
-
-    void on_pushButton_Add_clicked();
+    void on_pushButton_Add_clicked();   //add course
+    void on_pushButton_Drop_clicked();  //drop course
 
 private:
     Ui::StudentWindow *ui;
