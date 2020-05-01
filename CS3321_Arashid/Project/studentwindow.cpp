@@ -131,7 +131,7 @@ void StudentWindow::on_pushButton_Add_clicked()
     if(modal8->rowCount() == 0)
          {
 
-            qryAddClass.exec("INSERT INTO student_course_enrollment(student_id,course_id,date_of_enrollment,date_of_completion,semester) VALUES ((SELECT student_id from students where (username = '"+Global_Username+"' AND password = '"+Global_Password+"')),'"+course_ID+"','01/13/2020','05/07/2020',(SELECT term from courses WHERE course_id = '"+course_ID+"' ));");
+            qryAddClass.exec("INSERT INTO student_course_enrollment(student_id,course_id,date_of_enrollment,date_of_completion) VALUES ((SELECT student_id from students where (username = '"+Global_Username+"' AND password = '"+Global_Password+"')),'"+course_ID+"','01/13/2020','05/07/2020');");
             QMessageBox::information(this, "Class", "Class enrolled!");
              //This will update the tables after new inputs
              loadcourses();
